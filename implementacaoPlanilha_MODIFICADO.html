@@ -1,0 +1,61 @@
+<head>
+<link rel="stylesheet" href="visuals.css">
+</head>
+
+
+<body>
+<iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+
+<form 
+  id="contatoEmpresa"
+  name="contatoEmpresa"
+  method="POST" 
+  >
+
+<div class="cxgd">
+  <div class="input-container">
+    <input id="email" name="email" type="email" placeholder="Email">
+  </div>
+
+  <div class="input-container">
+    <input id="number" name="number" type="tel" placeholder="Numero">
+  </div>
+
+  <div class="input-container">
+    <input id="company" name="company" type="text" placeholder="Empresa">
+  </div>
+
+  <div class="input-container">
+    <input id= "message" name="message" type="text" placeholder="Mensagem">
+  </div>
+
+  <div class="input-container">
+    <select name="Tamanho" id="empresas">
+      <option value="pequena">Pequena</option>
+      <option value="media">Media</option>
+      <option value="grande">Grande</option>
+    </select>
+  </div>
+
+  <button class="generate-button" type="submit">Entre em contato via Whatsapp!</button>
+
+</div>
+</form>
+
+
+<div id="dialog" onclick="closeDialog(event)">
+  <div class="dialog-content">
+    <div id="qrcode"></div>
+  </div>
+</div>
+
+<script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+<script src="exibirQRCode.js"></script>
+
+
+
+
+</body>
+
+
+
