@@ -59,7 +59,7 @@ max-height: 90%;
 min-width: 16rem; 
 max-width: 90%; 
 width: 32rem; 
-display: flex; /* Usando o flexbox como método de display */
+display: grid; /* Usando o flexbox como método de display */
 flex-direction: column; /* A partir dele, são modificados este e os dois elementos abaixo */
 align-items: center; 
 justify-content: center;
