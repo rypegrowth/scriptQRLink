@@ -26,6 +26,7 @@ document.getElementById('contatoEmpresa').addEventListener('submit', function(ev
 function generateQR() {
     var number = document.getElementById("number").value;
     var message = document.getElementById("message").value;
+    var empresa = document.getElementById("company").value
 
     if(number.length != 11) {
       alert("O número deve conter DDD seguido de 9 dígitos");
