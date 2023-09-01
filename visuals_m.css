@@ -54,8 +54,8 @@ background-color: #f0f3f5;
 border: 1px solid #a3bac6;
 padding: 1.25rem;
 border-radius: 1.25rem;
-min-width: 20vw; 
-max-width: 90vw; 
+height: 400px;
+width: 330px; 
 width: 32rem; 
 display: grid; /* Usando o flexbox como método de display */
 flex-direction: column; /* A partir dele, são modificados este e os dois elementos abaixo */
