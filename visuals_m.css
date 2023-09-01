@@ -1,6 +1,6 @@
 #qrcode {
-  width: 12rem; 
-  height: 12rem; 
+  width: 100%; 
+  height: auto; 
   text-align: center; 
 }
 
@@ -54,10 +54,8 @@ background-color: #f0f3f5;
 border: 1px solid #a3bac6;
 padding: 1.25rem;
 border-radius: 1.25rem;
-min-height: 16rem;
-max-height: 90%;
-min-width: 16rem; 
-max-width: 90%; 
+min-width: 20vw; 
+max-width: 90vw; 
 width: 32rem; 
 display: grid; /* Usando o flexbox como método de display */
 flex-direction: column; /* A partir dele, são modificados este e os dois elementos abaixo */
