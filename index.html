@@ -13,7 +13,8 @@
   method="POST" 
   >
 
-<div class="cxgd">
+<div class="cxgd"> 
+  <h3>Contato - QR Code</h3>
   <div class="input-container">
     <input id="email" name="email" type="email" required placeholder="Email">
   </div>
@@ -32,11 +33,19 @@
 
   <div class="input-container">
     <select name="Tamanho" id="empresas">
+      <option value="" disabled selected>Qual o tamanho da sua empresa?</option>
       <option value="pequena">Pequena</option>
       <option value="media">Media</option>
       <option value="grande">Grande</option>
     </select>
   </div>
+
+  <div class="check-privacy-button">
+      <input name="aceitaSerContactado" type="checkbox" value="Sim" > Aceito o uso destes dados para ser contactado via Whatsapp, ligação ou outros meios.</option>
+    </select>
+  </div>
+  
+
 
   <button class="generate-button" type="submit">Entre em contato via Whatsapp!</button>
 
