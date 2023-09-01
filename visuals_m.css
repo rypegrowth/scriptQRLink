@@ -49,6 +49,19 @@
     height: 2rem;
 }
 
+.input-container select {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  background-color: #ffffff;
+  opacity: 0.6;
+  border: 1px solid #a3bac6;
+  border-radius: 2px;
+  max-width: 24rem;
+  width: 100%;
+  height: 2rem;
+}
+
+
 .cxgd {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f3f5;
