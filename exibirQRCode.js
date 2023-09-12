@@ -8,6 +8,7 @@ document.getElementById('contatoEmpresa').addEventListener('submit', function(ev
     method: 'POST',
     body: formData
   })
+  generateQR()
   .then(response => {
     if (!response.ok) {
       throw new Error('Network response was not ok');
@@ -52,6 +53,8 @@ function generateQR() {
     document.getElementById("message").value = "";
     document.getElementById("email").value = "";
     document.getElementById("company").value = "";
+
+    return
 
 }
 
